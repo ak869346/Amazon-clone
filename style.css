@@ -132,7 +132,7 @@ span {
 }
 
 .panel-ops {
-    width: 70%;
+    width: 75%;
     font-size: 0.85rem;
 }
 
@@ -167,6 +167,7 @@ span {
 
 .hero-msg a {
     color: #007185;
+    text-decoration: none;
 }
 
 
