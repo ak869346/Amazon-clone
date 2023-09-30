@@ -126,9 +126,12 @@ span {
     justify-content: space-evenly;
 }
 
-.panel-ops p {
+.panel-ops a {
     display: inline;
     margin: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .panel-ops {
@@ -201,7 +204,8 @@ span {
     margin-right: 10px;
 }
 
-.box-content p {
+.box-content a {
+    text-decoration: none;
     color: #007185;
 }
 
@@ -238,6 +242,12 @@ ul a {
     color: #dddddd;
     margin-top: 10px;
     font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
 }
 
 .foot-panel3 {
